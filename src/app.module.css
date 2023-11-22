@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #233142;
+}
+
+.container {
+  height: 666px;
+  width: 376px;
+  background: white;
+}
+
+.tabs {
+  overflow: hidden;
+  height: 100%;
+}
+
+.tabPanels {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.tabPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
