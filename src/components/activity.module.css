@@ -5,4 +5,37 @@
   padding: 8px;
   border: 1px solid grey;
   border-radius: 12px;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.type {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.number {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.detail {
+  color: grey;
+  font-size: 10px;
+}
+
+.archive {
+  height: 100%;
+}
+
+.button {
+  max-width: 60px;
+  padding: 4px;
+  height: 100%;
 }
